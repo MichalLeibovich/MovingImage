@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="160dp"
+        android:layout_height="323dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="288dp"
+        android:layout_constraintBottom_toBottomOf="parent"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintTop_toTopOf="parent"
+        android:onClick="ImageClicked"
+        app:srcCompat="@drawable/__"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="104dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="288dp"
+        android:layout_constraintBottom_toBottomOf="parent"
+        android:layout_constraintEnd_toEndOf="parent"
+        android:layout_constraintStart_toStartOf="parent"
+        android:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/smiling_emoji"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
